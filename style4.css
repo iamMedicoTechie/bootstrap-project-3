@@ -13,8 +13,9 @@ body {
     width: 100%;
 
 }
-.nav-container ul {
-    position: absol;
+
+.hero-nav {
+    padding: 1em 1em;
     display: flex;
     justify-content: center;
 }
@@ -34,24 +35,27 @@ body {
     font-size: 25px;
 
 }
-.hero{
-    background-color: red;
+.hero {
+    height: 70vh;
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    width: 100%;
 }
-.hero-nav{
-    background-color: aqua;
-    margin-bottom: auto;
-    width: 100%;
+
+.shop {
+    text-align: center;
+    margin: -.8;
+}
+
+.timber {
+    text-align: center;
 }
 
 .hero-info {
-    background-color: yellow;
-    position: absolute;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
 }
 
 ul {
@@ -79,6 +83,12 @@ ul {
     place-items: center;
     margin: 3rem;
     font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 810px) {
+    .TransportContainer {
+        height: 1200px;
+    }
 }
 .image2{
     padding: 60px;
